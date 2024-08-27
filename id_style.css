@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.img-bx {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.img-bx img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-bx img:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 20px;
+}
+
+.detail h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.detail h2 a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.detail h2 a:hover {
+  color: #007bff;
+}
+
+.detail span {
+  font-size: 14px;
+  color: #777;
+}
+
+.sci {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.sci li {
+  margin: 0 10px;
+}
+
+.sci li a {
+  color: #777;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.sci li a:hover {
+  color: #007bff;
+}

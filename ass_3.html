@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koushik's Form</title>
+</head>
+<body style="background-color: #f8f7f5;" alink="red" vlink="purple" link="blue">
+    <h2>Student Registration Form</h2>
+    <form style="text-align: left;">
+        <label for="first-name">First Name:</label>
+        <input style="margin-left:5%;" type="text" id="first-name" name="first-name" placeholder="Enter your first name" required size="40" maxlength="40">
+        <br>
+
+        <label for="last-name">Last Name:</label>
+        <input style="margin-left:5%;" type="text" id="last-name" name="last-name" placeholder="Enter your last name" required size="40" maxlength="40">
+        <br>
+
+        <label for="email">Email:</label>
+        <input style="margin-left:7%;" type="email" id="email" name="email" placeholder="Enter your email" required size="40">
+        <br>
+
+        <label for="mobile">Mobile:</label>
+        <input style="margin-left:6%;" type="tel" id="mobile" name="mobile" placeholder="Should be 10 digits" pattern="[0-9]{10}" required size="40" maxlength="10" minlength="10">
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br> 
+        
+        <label for="dob">Date of Birth:</label>
+        <input style="margin-left:4%;" type="date" id="dob" name="dob" required max="2024-07-13" min="2012-12-12">
+        <br>
+
+        <label for="address">Address:</label>
+        <textarea style="margin-left:5%;" id="address" name="address" maxlength="500" rows="4" cols="50" placeholder="Enter your address"></textarea>
+        <br>
+
+        <label for="city">City:</label>
+        <input style="margin-left:8%;" type="text" id="city" name="city" placeholder="Enter your city" required size="40">
+        <br>
+
+        <label for="pin">Area Pin:</label>
+        <input style="margin-left:6%;" type="text" id="pin" name="pin" placeholder="Enter your pin" size="40" maxlength="6" minlength="6">
+        <br>
+
+        <label for="state">State:</label>
+        <input style="margin-left:8%;" type="text" id="state" name="state" placeholder="Enter your state">
+        <br>
+
+        <label for="qualification">Qualification:</label>
+        <select style="margin-left:4%;" id="qualification" name="qualification">
+            <option>BTECH CSE-CORE</option>
+            <option>BTECH CSE-AIML</option>
+            <option>BTECH CSE-CYBER SECURITY</option>
+        </select>
+        <br>
+
+        <label for="password">Password:</label>
+        <input style="margin-left:6%;" type="password" id="password" name="password" required maxlength="8" minlength="8">
+        <br>
+        
+        <input style="margin-left:15%;" type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>
